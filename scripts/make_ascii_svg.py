@@ -1,37 +1,28 @@
 import os
-import requests
 from PIL import Image, ImageEnhance, ImageOps
 
 def generate_ascii_svg():
-    img_url = "https://raw.githubusercontent.com/Kapil6996/Kapil6996.github.io/main/Screenshot_20251101_111305.jpg"
     img_path = "scripts/profile_source.jpg"
-    
-    os.makedirs("scripts", exist_ok=True)
-    try:
-        r = requests.get(img_url, timeout=10)
-        if r.status_code == 200:
-            with open(img_path, "wb") as f:
-                f.write(r.content)
-    except Exception as e:
-        print(f"Error fetching photo: {e}")
-        
-    if os.path.exists(img_path):
-        img = Image.open(img_path).convert("L")
-    else:
-        img = Image.new("L", (100, 100), 128)
+    if not os.path.exists(img_path):
+        print("Profile image not found")
+        return
 
-    img = ImageOps.autocontrast(img, cutoff=3)
+    img = Image.open(img_path).convert("L")
+
+    # Autocontrast and brightness enhancement for face clarity
+    img = ImageOps.autocontrast(img, cutoff=2)
     enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.8)
+    img = enhancer.enhance(1.7)
 
     target_cols = 54
     aspect = img.height / img.width
-    target_rows = int(target_cols * aspect * 0.50)
-    target_rows = max(30, min(42, target_rows))
+    target_rows = int(target_cols * aspect * 0.48)
+    target_rows = max(34, min(44, target_rows))
     
     img = img.resize((target_cols, target_rows), Image.Resampling.LANCZOS)
     
-    RAMP = "  ..':-+=*#%@"
+    # ASCII density ramp using dots, colons, pluses, hashes, and block symbols
+    RAMP = " .':;+*#%@"
     
     lines = []
     for y in range(target_rows):
@@ -88,7 +79,7 @@ def generate_ascii_svg():
     
     with open("kapil-ascii.svg", "w") as f:
         f.write(svg_content)
-    print("Generated high-contrast kapil-ascii.svg successfully!")
+    print("Generated kapil-ascii.svg portrait successfully!")
 
 if __name__ == "__main__":
     generate_ascii_svg()

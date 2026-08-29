@@ -45,20 +45,22 @@
 
 
 # 📊 GitHub Stats:
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kapil6996&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="Kapil's GitHub Stats" />
-  <br><br>
+<p fill="none">
+  <img src="https://github-readme-stats.shion.dev/api?username=Kapil6996&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="Kapil's GitHub Stats" />
+</p>
+<p fill="none">
   <img src="https://streak-stats.demolab.com/?user=Kapil6996&theme=dark&hide_border=false" alt="Kapil's GitHub Streak" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kapil6996&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Kapil's Top Languages" />
-</div>
+</p>
+<p fill="none">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Kapil6996&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Kapil's Top Languages" />
+</p>
 
 <br>
 
 ### 🔝 Top Contributed Repos
-<div align="center">
+<p fill="none">
   <img src="https://github-contributor-stats.vercel.app/api?username=Kapil6996&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Kapil's Top Contributed Repos" />
-</div>
+</p>
 
 ---
 
@@ -70,7 +72,7 @@
 | 💳 **[SahayCredit Fintech Platform](https://github.com/Kapil6996/sahaycredit1)** | Alternate credit scoring platform running in-browser WebAssembly ML (`~0.99 R²`) for thin-file borrowers using non-traditional signals. | `JavaScript` `Pyodide` `WebAssembly` `SHAP` |
 | 📈 **[Asset Alpha Quantitative Trading](https://github.com/Kapil6996/market-prediction-ml)** | Real-time algorithmic market prediction agent achieving Top 5 competitive leaderboard ranking with LightGBM + LSTM ensemble. | `Python` `LightGBM` `LSTM` `Backtesting` |
 | 🧬 **[SkillGenome X12 Intelligence](https://github.com/Kapil6996/_skillgenomeX12)** | Strategic workforce analytics platform predicting skill evolution trends across 6 national economic sectors (`skillgenome-x12.vercel.app`). | `Python` `Flask` `Machine Learning` `Analytics` |
-| 🚑 **[UPLINE Emergency Triage PWA](https://github.com/Kapil6996/Upline-Final)** | Offline-first progressive web app for emergency triage scenarios with local caching and zero network latency. | `JavaScript` `PWA` `Offline Storage` `Low-Latency` |
+| ambul **[UPLINE Emergency Triage PWA](https://github.com/Kapil6996/Upline-Final)** | Offline-first progressive web app for emergency triage scenarios with local caching and zero network latency. | `JavaScript` `PWA` `Offline Storage` `Low-Latency` |
 
 <br>
 
