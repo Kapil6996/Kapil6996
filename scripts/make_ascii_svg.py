@@ -9,19 +9,19 @@ def generate_ascii_svg():
 
     img = Image.open(img_path).convert("L")
 
-    # Crop to subject head, face, glasses, arm & shirt
+    # Crop to subject head, face, glasses, jacket
     w, h = img.size
-    crop_box = (int(w * 0.15), int(h * 0.25), int(w * 0.95), int(h * 0.95))
+    crop_box = (int(w * 0.10), int(h * 0.08), int(w * 0.90), int(h * 0.90))
     img = img.crop(crop_box)
 
-    # Enhance contrast and sharp features
+    # Enhance contrast for sharp face details
     img = ImageOps.autocontrast(img, cutoff=2)
     enhancer = ImageEnhance.Contrast(img)
     img = enhancer.enhance(1.8)
 
     target_cols = 56
     aspect = img.height / img.width
-    target_rows = int(target_cols * aspect * 0.50)
+    target_rows = int(target_cols * aspect * 0.48)
     target_rows = max(34, min(46, target_rows))
     
     img = img.resize((target_cols, target_rows), Image.Resampling.LANCZOS)

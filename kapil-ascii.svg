@@ -19,139 +19,139 @@
   <g transform="translate(15, 45)" class="ascii-text">
     <text x="0" y="11.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.00s" fill="freeze"/>
-      ';;++;;+*+;;':;';#' :#;'::'.+*+;++'.::'   . ..... ':.:##
+                                                  ............
     </text>
     <text x="0" y="23.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.06s" fill="freeze"/>
-      ...':+++++++;:**:@#;#*:::;;:;;+..'..:' ..'::'.'  '::.';+
+                                                 .............
     </text>
     <text x="0" y="34.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.12s" fill="freeze"/>
-      ... ..::;;+*#+*%;%#*++*++;'::::;'.'...  ..'.':'  .:;.';*
+                                                   ...........
     </text>
     <text x="0" y="46.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.18s" fill="freeze"/>
-      '''::'';+*;;;;++:%*'  ..''.:;:+*;:.   .:..:*+'    .:.:::
+                          .:;::'.'.                  .........
     </text>
     <text x="0" y="57.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.24s" fill="freeze"/>
-      ..'.. :+:;:'';;:;;          ''.':'::.  +;.':''.   .'   '
+                         +#%@%#*#%#+'.''              ..   ...
     </text>
     <text x="0" y="69.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.29s" fill="freeze"/>
-      '.'  .'''.;+*%*;;;'           .  . :;:'+; . '.':' .  ...
+                       .;;;';:''#%#%#*+;'                   ..
     </text>
     <text x="0" y="80.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.35s" fill="freeze"/>
-      ;*;'' ':;++;*#%*;%#:.   .:.         .';..;'.. .'   .''''
+                      .         '+;%**%*+                     
     </text>
     <text x="0" y="92.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.41s" fill="freeze"/>
-      ';+**.'*#+.  .'.:%#%@*  '''+;.       .+..''.'';+'''..:.'
+                                 :.':;#%+'                    
     </text>
     <text x="0" y="103.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.47s" fill="freeze"/>
-      ;;+#+;+#+.       ':#*+'++*%%@*       :+.';:'+:;+;;+::;;.
+                                     ;*+;.                    
     </text>
     <text x="0" y="115.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.53s" fill="freeze"/>
-      ;;.':'+#*     ':.'+; :#;;;*%%;:''+;   . :':;+;;:'':;;;;:
+                                    .+#;.                     
     </text>
     <text x="0" y="126.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.59s" fill="freeze"/>
-      .'''';*%#;':::::::' .'++:';**;*;:%; '.'...      .:'.';+;
+                                ':::*%%;.                     
     </text>
     <text x="0" y="138.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.65s" fill="freeze"/>
-      .. ';:;+*+;;;;''::  .'':'':**:;#+:  . ;' ....;+**%%;*%##
+        .......            .   ';+#%@%%%:                     
     </text>
     <text x="0" y="149.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.71s" fill="freeze"/>
-      ..':+++++;'''...'.       ..;;;%:      ':  ' .*#*%%@;*;#+
+       ..''''......       +#;  +#*#%%@%%;                     
     </text>
     <text x="0" y="161.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.76s" fill="freeze"/>
-      ::;+**++:. .    . +*'      .:##        ; .:. +%#**%:: ..
+      ':+**;:''..... .    %*;:.+#%@@@%%%:          .   .      
     </text>
     <text x="0" y="172.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.82s" fill="freeze"/>
-      :;+++++.     .    ;%;:. .:':+%**+ .  '::. .' :%%##%*:' .
+      **@@@#+;:''':...;.  *%;;::+%%%@%%%++        . .::+'...::
     </text>
     <text x="0" y="184.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.88s" fill="freeze"/>
-      ;++++;:  .  .'..'';#;:'.'::+*:*@@###***+*+':'.:;*#%#::::
+      %@@%%%%#*#;+*+;.+'  .##+:;+#%%@%%%%#          .'.':'. ':
     </text>
     <text x="0" y="195.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="0.94s" fill="freeze"/>
-      ++++:''  ..'*%%#%##+'.....'' :#*%@@@@@@@@@*':''::+;+++*#
+      %##%%@#+;++;;+;':.   +**;+*%@@%%%*.. .  .    .          
     </text>
     <text x="0" y="207.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.00s" fill="freeze"/>
-      +*+;':''*#+%@%%%%**#+... . .++.'+#%%%%##%%@#%#******####
+      %*++**++;:::;:;':.  .+*+++*###%@@'              .       
     </text>
     <text x="0" y="218.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.06s" fill="freeze"/>
-      ++;'  :%%#@%%%+*++#%;'. .':#+'::+*%%#*++#*%@@%+':;;;+++*
+      ##**;;:::''::::'    '++**+**+:;**                       
     </text>
     <text x="0" y="230.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.12s" fill="freeze"/>
-      *#%%##%%%**#%%***+*%*':''*%+;++*#%%%*;;**;*%%@@%+++;#@@@
+       ....... ..          :+**++**' .#*;:.                   
     </text>
     <text x="0" y="241.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.18s" fill="freeze"/>
-      %@@%%%#*;***##****+++'';##*####%%#%#*;;#;;+@@%%%#'. .###
+                           .:+***%*:'.#%%@%*:                 
     </text>
     <text x="0" y="253.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.24s" fill="freeze"/>
-      %**%#**;:****#******;:;%%**#%#%##%%#++*#:;:*%%%#@%++*###
+                  .         .;##%%;;#.*%%+#@@*'               
     </text>
     <text x="0" y="264.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.29s" fill="freeze"/>
-      %#+;**: +#***##+*+*#*;%%#*#**##**%##*+*#.:':##*#%@@%%%%%
+      .+##*.      ':'  ' ''' .;*+' .  ;##*%#%%%:              
     </text>
     <text x="0" y="276.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.35s" fill="freeze"/>
-      %%*;:;''****+*##+*+*++#*+*++*#*:.;**++#*.:':#*;+*+*%+;;+
+      .*@%+         .':''.++:.    :+' ;%;#@*%**@'             
     </text>
     <text x="0" y="287.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.41s" fill="freeze"/>
-      +**+;::+***+++*%#*+++**+;+*****+'+****#*  ';*;;+#++%%###
+      '+**;           '::    ;   ;%#: .+'#%*#*;*#             
     </text>
     <text x="0" y="299.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.47s" fill="freeze"/>
-      +**********++++#%#**+:++++***###%@##*#%#  :++::+*++%@#*#
+      .;**'            ':    .: .%%%. '.'#@##*;:::            
     </text>
     <text x="0" y="310.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.53s" fill="freeze"/>
-      *******+***+**++*###*;*++**#####++****%% ';;+::;*##%@@##
+       +%#.             :'    :''%%%  ..:*@##*+; :.           
     </text>
     <text x="0" y="322.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.59s" fill="freeze"/>
-      +++++++*******+++**#%@%%%%%%##***++++*%%':+*###%%**#%%%#
+       '::               ' ': .;.%%%.   :*%%##+; ';           
     </text>
     <text x="0" y="333.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.65s" fill="freeze"/>
-      +++++*+********++++**#####***********##%:.:+***+**+*%@@@
+       :;                '  .' ::%%*   .;+%%#%*: '#           
     </text>
     <text x="0" y="345.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.71s" fill="freeze"/>
-      +++++*+#******+++++*+++++++++++++****##%' .:;+****+;;;+*
+      .;:                :*:.   *#%+   '+*%%##%+ .%:          
     </text>
     <text x="0" y="356.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.76s" fill="freeze"/>
-      ++***+*##******++++::++++**+++++*+***###'..'+ ':'..     
+       .                 .;++;. '#%+   +*++++*%* '*#          
     </text>
     <text x="0" y="368.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.82s" fill="freeze"/>
-      ++++;;*####****++++;:+++++++++++++****##''''++*+;;:;+;;'
+      .                  .;:':' .*%+   ;:'*##+%# '+@;         
     </text>
     <text x="0" y="379.5" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.88s" fill="freeze"/>
-      ;;;:'.+####****++++**++++*++++++++******: .'*%%@@%%+;+*+
+                         .;;:'. .*#;   ';;*%%;+#'  #%.        
     </text>
     <text x="0" y="391.0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.08s" begin="1.94s" fill="freeze"/>
-      :'.   :#%###*****++*********+++++++***+;: :%%%#%%%%#*::.
+                         .:;;'.' +;'   ':++#%++#+  :@*        
     </text>
   </g>
 </svg>

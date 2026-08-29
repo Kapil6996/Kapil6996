@@ -791,9 +791,9 @@ export default function App() {
 
             <div className="md:col-span-1 flex justify-center md:justify-end pt-6 md:pt-0" data-glide-speed="-0.06">
               <div className="profile-image-container">
-                <img src="https://raw.githubusercontent.com/Kapil6996/Kapil6996.github.io/main/Screenshot_20251101_111305.jpg" 
+                <img src="/kapil_profile.jpg" 
                      alt="Kapil Kumar Profile Picture" 
-                     onError={(e) => { e.currentTarget.src='https://placehold.co/250x250/333/fff?text=Kapil'; }}
+                     className="w-full h-full object-cover rounded-full"
                 />
               </div>        
             </div>
