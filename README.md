@@ -22,7 +22,7 @@
   <br>
 
   <!-- Live Badges & Links -->
-  <a href="https://portfolio-mu-rouge-90.vercel.app" target="_blank">
+  <a href="https://portfolio-kapillkumar69-9330s-projects.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Live_Portfolio-portfolio--mu--rouge--90.vercel.app-22d3ee?style=for-the-badge&logoColor=white" alt="Live Portfolio Website" />
   </a>
   &nbsp;&nbsp;
