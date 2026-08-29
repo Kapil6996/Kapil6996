@@ -88,10 +88,10 @@ const projectsData = [
 const achievementsData = [
   {
     id: 1,
-    category: "National Hackathon",
-    title: "JAI Hackathon Trophy Winner",
+    category: "First Prize",
+    title: "JAI Hackathon Winner Trophy",
     issuer: "Jamia Millia Islamia",
-    image: "/achievements/jai_hackathon_trophy.jpg",
+    image: "/achievements/jai_hackathon_photo_booth.jpg",
     size: "tall"
   },
   {
@@ -104,58 +104,58 @@ const achievementsData = [
   },
   {
     id: 3,
-    category: "Innovation Award",
-    title: "SahayCredit Fintech Platform",
-    issuer: "Fintech Summit",
+    category: "Fintech ML",
+    title: "SahayCredit Platform",
+    issuer: "SahayCredit Demo Suite",
     image: "/sahay_credit.png",
     size: "small"
   },
   {
     id: 4,
-    category: "Tech Summit",
-    title: "iConnect PDUIIEC 2026 KOSHAK",
-    issuer: "PDUIIEC GJUS&T",
-    image: "/achievements/iconnect_pduiiec_2026.jpg",
+    category: "National Hackathon",
+    title: "FORK IT Hackathon Badges",
+    issuer: "FORK IT Hackathon",
+    image: "/achievements/forkit_hackathon_badges.jpg",
     size: "small"
   },
   {
     id: 5,
-    category: "Hackathon Stage",
-    title: "Data Impact Summit Keynote",
+    category: "Award Presentation",
+    title: "JAI Hackathon Stage Certificate",
     issuer: "Dept of Computer Engineering",
-    image: "/achievements/auditorium_hackathon_stage.jpg",
+    image: "/achievements/jai_hackathon_stage_cert.jpg",
     size: "small"
   },
   {
     id: 6,
-    category: "Live Pitching",
-    title: "BUILD X 8 Hours Hackathon",
-    issuer: "NSUT New Delhi",
-    image: "/achievements/buildx_nsut_hackathon.jpg",
+    category: "Team Honor",
+    title: "JAI Hackathon Trophy Ceremony",
+    issuer: "Jamia Millia Islamia",
+    image: "/achievements/jai_hackathon_trophy.jpg",
     size: "tall"
   },
   {
     id: 7,
-    category: "Workforce ML",
-    title: "SkillGenome X12 Intelligence System",
-    issuer: "National Intelligence Dashboard",
-    image: "/skillgenome_x12.png",
+    category: "Tech Summit",
+    title: "iConnect PDUIIEC 2026 KOSHAK",
+    issuer: "PDUIIEC GJUS&T",
+    image: "/achievements/iconnect_pduiiec_2026.jpg",
     size: "medium"
   },
   {
     id: 8,
-    category: "Offline Healthcare",
-    title: "UPLINE Emergency Triage PWA",
-    issuer: "Low-Latency PWA System",
-    image: "/upline_triage.png",
+    category: "Live Pitching",
+    title: "BUILD X 8 Hours Hackathon",
+    issuer: "NSUT New Delhi",
+    image: "/achievements/buildx_nsut_hackathon.jpg",
     size: "medium"
   },
   {
     id: 9,
-    category: "Quantitative AI",
-    title: "Asset Alpha Trading System",
-    issuer: "Top 5 Leaderboard Rank",
-    image: "/maruti_suzuki_ftir.jpg",
+    category: "Hackathon Stage",
+    title: "Data Impact Summit Keynote",
+    issuer: "Auditorium Presentation",
+    image: "/achievements/auditorium_hackathon_stage.jpg",
     size: "tall"
   }
 ];
