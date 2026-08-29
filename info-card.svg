@@ -13,57 +13,57 @@
   <text x="70" y="22" class="terminal-title">kapil@github ~ $ neofetch --profile</text>
   <line x1="15" y1="34" x2="455" y2="34" stroke="#30363d" stroke-width="1"/>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.10s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.05s" fill="freeze"/>
     <text x="20" y="58" class="key" fill="#38bdf8">USER:</text>
     <text x="120" y="58" class="val">Kapil Kumar (@Kapil6996)</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.22s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.13s" fill="freeze"/>
     <text x="20" y="96" class="key" fill="#a855f7">ROLE:</text>
-    <text x="120" y="96" class="val">AI/ML Engineer & Systems Architect</text>
+    <text x="120" y="96" class="val">AI/ML Engineer &amp; Systems Architect</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.34s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.21s" fill="freeze"/>
     <text x="20" y="134" class="key" fill="#f43f5e">LOCATION:</text>
     <text x="120" y="134" class="val">Gurugram, Delhi NCR, India</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.46s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.29s" fill="freeze"/>
     <text x="20" y="172" class="key" fill="#fbbf24">EDUCATION:</text>
-    <text x="120" y="172" class="val">B.Tech Undergraduate (AI & ML)</text>
+    <text x="120" y="172" class="val">B.Tech Undergraduate (AI &amp; ML)</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.58s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.37s" fill="freeze"/>
     <text x="20" y="210" class="key" fill="#34d399">FEATURED:</text>
     <text x="120" y="210" class="val">Maruti Suzuki FTIR Diagnostic Engine</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.70s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.45s" fill="freeze"/>
     <text x="20" y="248" class="key" fill="#22d3ee">FINTECH:</text>
     <text x="120" y="248" class="val">SahayCredit Alternate Scoring (WASM ML)</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.82s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.53s" fill="freeze"/>
     <text x="20" y="286" class="key" fill="#f472b6">QUANT:</text>
     <text x="120" y="286" class="val">Asset Alpha Trading Engine (Top 5)</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.94s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.61s" fill="freeze"/>
     <text x="20" y="324" class="key" fill="#60a5fa">TALENT:</text>
     <text x="120" y="324" class="val">SkillGenome X12 Intelligence System</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.06s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.69s" fill="freeze"/>
     <text x="20" y="362" class="key" fill="#a78bfa">TRIAGE:</text>
     <text x="120" y="362" class="val">UPLINE Offline-First Emergency PWA</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.18s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.77s" fill="freeze"/>
     <text x="20" y="400" class="key" fill="#38bdf8">STACK:</text>
     <text x="120" y="400" class="val">Python • PyTorch • C++ • React • Swift</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.30s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.85s" fill="freeze"/>
     <text x="20" y="438" class="key" fill="#34d399">PORTFOLIO:</text>
     <text x="120" y="438" class="val">portfolio-mu-rouge-90.vercel.app</text>
   </g>

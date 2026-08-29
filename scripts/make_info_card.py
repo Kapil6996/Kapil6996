@@ -6,9 +6,9 @@ def generate_info_card_svg():
     
     rows = [
         ("USER", "Kapil Kumar (@Kapil6996)", "#38bdf8"),
-        ("ROLE", "AI/ML Engineer & Systems Architect", "#a855f7"),
+        ("ROLE", "AI/ML Engineer &amp; Systems Architect", "#a855f7"),
         ("LOCATION", "Gurugram, Delhi NCR, India", "#f43f5e"),
-        ("EDUCATION", "B.Tech Undergraduate (AI & ML)", "#fbbf24"),
+        ("EDUCATION", "B.Tech Undergraduate (AI &amp; ML)", "#fbbf24"),
         ("FEATURED", "Maruti Suzuki FTIR Diagnostic Engine", "#34d399"),
         ("FINTECH", "SahayCredit Alternate Scoring (WASM ML)", "#22d3ee"),
         ("QUANT", "Asset Alpha Trading Engine (Top 5)", "#f472b6"),
@@ -39,11 +39,12 @@ def generate_info_card_svg():
     step_y = 38
     for i, (key, val, color) in enumerate(rows):
         y = start_y + i * step_y
-        delay = 0.1 + i * 0.12
+        delay = 0.05 + i * 0.08
+        safe_val = val.replace("&", "&amp;") if "&amp;" not in val else val
         svg.append(f'  <g opacity="0">')
-        svg.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="{delay:.2f}s" fill="freeze"/>')
+        svg.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="{delay:.2f}s" fill="freeze"/>')
         svg.append(f'    <text x="20" y="{y}" class="key" fill="{color}">{key}:</text>')
-        svg.append(f'    <text x="120" y="{y}" class="val">{val}</text>')
+        svg.append(f'    <text x="120" y="{y}" class="val">{safe_val}</text>')
         svg.append('  </g>')
 
     color_y = start_y + len(rows) * step_y + 10
