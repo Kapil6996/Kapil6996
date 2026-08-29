@@ -4,7 +4,7 @@
   <br>
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kapil-kumar-470549304) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kapillkumar69@gmail.com) [![Portfolio](https://img.shields.io/badge/Live_Portfolio-22d3ee?logo=vercel&logoColor=white)](https://portfolio-mu-rouge-90.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kapil-kumar-470549304) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kapillkumar69@gmail.com) [![Portfolio](https://img.shields.io/badge/Live_Portfolio-22d3ee?logo=vercel&logoColor=white)](https://portfolio-kapillkumar69-9330s-projects.vercel.app/)
 
 <br>
 
