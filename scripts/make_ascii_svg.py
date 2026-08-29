@@ -9,19 +9,24 @@ def generate_ascii_svg():
 
     img = Image.open(img_path).convert("L")
 
-    # Autocontrast and brightness enhancement for face clarity
+    # Crop to subject head, face, glasses, arm & shirt
+    w, h = img.size
+    crop_box = (int(w * 0.15), int(h * 0.25), int(w * 0.95), int(h * 0.95))
+    img = img.crop(crop_box)
+
+    # Enhance contrast and sharp features
     img = ImageOps.autocontrast(img, cutoff=2)
     enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.7)
+    img = enhancer.enhance(1.8)
 
-    target_cols = 54
+    target_cols = 56
     aspect = img.height / img.width
-    target_rows = int(target_cols * aspect * 0.48)
-    target_rows = max(34, min(44, target_rows))
+    target_rows = int(target_cols * aspect * 0.50)
+    target_rows = max(34, min(46, target_rows))
     
     img = img.resize((target_cols, target_rows), Image.Resampling.LANCZOS)
     
-    # ASCII density ramp using dots, colons, pluses, hashes, and block symbols
+    # Character density ramp from bright to dark
     RAMP = " .':;+*#%@"
     
     lines = []
@@ -35,7 +40,7 @@ def generate_ascii_svg():
         
     font_size = 9.5
     line_height = 11.5
-    width = 370
+    width = 380
     height = int(target_rows * line_height + 55)
     
     svg_lines = [
@@ -56,7 +61,7 @@ def generate_ascii_svg():
         '  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>',
         '  <circle cx="52" cy="18" r="5" fill="#27c93f"/>',
         '  <text x="70" y="22" font-family="monospace" font-size="11" fill="#8b949e" font-weight="bold">kapil_ascii_portrait.sh</text>',
-        '  <line x1="15" y1="34" x2="355" y2="34" stroke="#30363d" stroke-width="1"/>',
+        '  <line x1="15" y1="34" x2="365" y2="34" stroke="#30363d" stroke-width="1"/>',
         '  <g transform="translate(15, 45)" class="ascii-text">'
     ]
     
