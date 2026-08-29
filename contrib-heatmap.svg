@@ -12,7 +12,7 @@
   <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
   <circle cx="52" cy="18" r="5" fill="#27c93f"/>
   <text x="70" y="22" class="title">kapil@github ~ $ ./contributions.sh --user Kapil6996</text>
-  <text x="620" y="22" class="subtext">122+ contributions in the last year</text>
+  <text x="620" y="22" class="subtext">124+ contributions in the last year</text>
   <line x1="15" y1="36" x2="845" y2="34" stroke="#30363d" stroke-width="1"/>
   <g class="label">
     <text x="35.0" y="46">Jan</text>
@@ -1152,9 +1152,9 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.46s" fill="freeze"/>
       <title>2025-12-05: 0 contributions</title>
     </rect>
-    <rect x="635.0" y="52.0" width="11.5" height="11.5" fill="#39d353" class="day-box" opacity="0">
+    <rect x="635.0" y="52.0" width="11.5" height="11.5" fill="#26a641" class="day-box" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.40s" fill="freeze"/>
-      <title>2025-12-12: 8 contributions</title>
+      <title>2025-12-12: 6 contributions</title>
     </rect>
     <rect x="635.0" y="67.0" width="11.5" height="11.5" fill="#161b22" class="day-box" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.42s" fill="freeze"/>
@@ -1336,9 +1336,9 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.66s" fill="freeze"/>
       <title>2025-10-18: 0 contributions</title>
     </rect>
-    <rect x="725.0" y="112.0" width="11.5" height="11.5" fill="#39d353" class="day-box" opacity="0">
+    <rect x="725.0" y="112.0" width="11.5" height="11.5" fill="#26a641" class="day-box" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.67s" fill="freeze"/>
-      <title>2025-10-25: 8 contributions</title>
+      <title>2025-10-25: 6 contributions</title>
     </rect>
     <rect x="725.0" y="127.0" width="11.5" height="11.5" fill="#39d353" class="day-box" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.69s" fill="freeze"/>
@@ -1512,9 +1512,9 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.90s" fill="freeze"/>
       <title>2026-08-22: 0 contributions</title>
     </rect>
-    <rect x="815.0" y="142.0" width="11.5" height="11.5" fill="#0e4429" class="day-box" opacity="0">
+    <rect x="815.0" y="142.0" width="11.5" height="11.5" fill="#39d353" class="day-box" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.91s" fill="freeze"/>
-      <title>2026-08-29: 2 contributions</title>
+      <title>2026-08-29: 8 contributions</title>
     </rect>
   </g>
   <g class="label">
