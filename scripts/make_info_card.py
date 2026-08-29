@@ -15,7 +15,7 @@ def generate_info_card_svg():
         ("TALENT", "SkillGenome X12 Intelligence System", "#60a5fa"),
         ("TRIAGE", "UPLINE Offline-First Emergency PWA", "#a78bfa"),
         ("STACK", "Python • PyTorch • C++ • React • Swift", "#38bdf8"),
-        ("PORTFOLIO", "portfolio-mu-rouge-90.vercel.app", "#34d399"),
+        ("PORTFOLIO", "portfolio-kapillkumar69.vercel.app", "#34d399"),
     ]
     
     svg = [

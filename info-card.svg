@@ -65,7 +65,7 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.85s" fill="freeze"/>
     <text x="20" y="438" class="key" fill="#34d399">PORTFOLIO:</text>
-    <text x="120" y="438" class="val">portfolio-mu-rouge-90.vercel.app</text>
+    <text x="120" y="438" class="val">portfolio-kapillkumar69.vercel.app</text>
   </g>
   <g transform="translate(20, 486)">
     <rect x="0" y="0" width="20" height="12" rx="3" fill="#ff5f56"/>

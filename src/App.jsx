@@ -88,10 +88,10 @@ const projectsData = [
 const achievementsData = [
   {
     id: 1,
-    category: "Robotics & Hardware",
-    title: "National Robotics Competition",
-    issuer: "Tech Expo 2025",
-    image: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?auto=format&fit=crop&w=1200&q=80",
+    category: "National Hackathon",
+    title: "JAI Hackathon Trophy Winner",
+    issuer: "Jamia Millia Islamia",
+    image: "/achievements/jai_hackathon_trophy.jpg",
     size: "tall"
   },
   {
@@ -104,58 +104,58 @@ const achievementsData = [
   },
   {
     id: 3,
-    category: "Award Ceremony",
-    title: "National Fintech Innovation Award",
-    issuer: "SahayCredit Platform",
+    category: "Innovation Award",
+    title: "SahayCredit Fintech Platform",
+    issuer: "Fintech Summit",
     image: "/sahay_credit.png",
     size: "small"
   },
   {
     id: 4,
-    category: "Team Achievement",
-    title: "Hackathon Champions",
-    issuer: "Buildathon 2025",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80",
+    category: "Tech Summit",
+    title: "iConnect PDUIIEC 2026 KOSHAK",
+    issuer: "PDUIIEC GJUS&T",
+    image: "/achievements/iconnect_pduiiec_2026.jpg",
     size: "small"
   },
   {
     id: 5,
-    category: "Executive Presentation",
-    title: "AI Automation Showcase",
-    issuer: "GO-BRICS Business Lab",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80",
+    category: "Hackathon Stage",
+    title: "Data Impact Summit Keynote",
+    issuer: "Dept of Computer Engineering",
+    image: "/achievements/auditorium_hackathon_stage.jpg",
     size: "small"
   },
   {
     id: 6,
-    category: "Field Research & Testing",
-    title: "Autonomous Quadruped Field Test",
-    issuer: "Robotics Research Lab",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    category: "Live Pitching",
+    title: "BUILD X 8 Hours Hackathon",
+    issuer: "NSUT New Delhi",
+    image: "/achievements/buildx_nsut_hackathon.jpg",
     size: "tall"
   },
   {
     id: 7,
-    category: "Stage Honors",
-    title: "Best Technical Paper Presentation",
-    issuer: "IEEE International Conference",
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80",
+    category: "Workforce ML",
+    title: "SkillGenome X12 Intelligence System",
+    issuer: "National Intelligence Dashboard",
+    image: "/skillgenome_x12.png",
     size: "medium"
   },
   {
     id: 8,
-    category: "Keynote Talk",
-    title: "Future of On-Device WASM Machine Learning",
-    issuer: "Tech Talks 2025",
-    image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80",
+    category: "Offline Healthcare",
+    title: "UPLINE Emergency Triage PWA",
+    issuer: "Low-Latency PWA System",
+    image: "/upline_triage.png",
     size: "medium"
   },
   {
     id: 9,
-    category: "Student Leadership",
-    title: "Technical Society Lead Recognition",
-    issuer: "University Chapter",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+    category: "Quantitative AI",
+    title: "Asset Alpha Trading System",
+    issuer: "Top 5 Leaderboard Rank",
+    image: "/maruti_suzuki_ftir.jpg",
     size: "tall"
   }
 ];
