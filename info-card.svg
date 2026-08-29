@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 555" width="470" height="555">
+  <style>
+    .bg { fill: #0d1117; }
+    .terminal-title { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11.5px; font-weight: bold; fill: #8b949e; }
+    .key { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11.5px; font-weight: bold; }
+    .val { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11.5px; fill: #e6edf3; }
+  </style>
+  <rect width="100%" height="100%" rx="12" class="bg"/>
+  <rect x="0" y="0" width="100%" height="100%" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="70" y="22" class="terminal-title">kapil@github ~ $ neofetch --profile</text>
+  <line x1="15" y1="34" x2="455" y2="34" stroke="#30363d" stroke-width="1"/>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.10s" fill="freeze"/>
+    <text x="20" y="58" class="key" fill="#38bdf8">USER:</text>
+    <text x="120" y="58" class="val">Kapil Kumar (@Kapil6996)</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.22s" fill="freeze"/>
+    <text x="20" y="96" class="key" fill="#a855f7">ROLE:</text>
+    <text x="120" y="96" class="val">AI/ML Engineer & Systems Architect</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.34s" fill="freeze"/>
+    <text x="20" y="134" class="key" fill="#f43f5e">LOCATION:</text>
+    <text x="120" y="134" class="val">Gurugram, Delhi NCR, India</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.46s" fill="freeze"/>
+    <text x="20" y="172" class="key" fill="#fbbf24">EDUCATION:</text>
+    <text x="120" y="172" class="val">B.Tech Undergraduate (AI & ML)</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.58s" fill="freeze"/>
+    <text x="20" y="210" class="key" fill="#34d399">FEATURED:</text>
+    <text x="120" y="210" class="val">Maruti Suzuki FTIR Diagnostic Engine</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.70s" fill="freeze"/>
+    <text x="20" y="248" class="key" fill="#22d3ee">FINTECH:</text>
+    <text x="120" y="248" class="val">SahayCredit Alternate Scoring (WASM ML)</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.82s" fill="freeze"/>
+    <text x="20" y="286" class="key" fill="#f472b6">QUANT:</text>
+    <text x="120" y="286" class="val">Asset Alpha Trading Engine (Top 5)</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="0.94s" fill="freeze"/>
+    <text x="20" y="324" class="key" fill="#60a5fa">TALENT:</text>
+    <text x="120" y="324" class="val">SkillGenome X12 Intelligence System</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.06s" fill="freeze"/>
+    <text x="20" y="362" class="key" fill="#a78bfa">TRIAGE:</text>
+    <text x="120" y="362" class="val">UPLINE Offline-First Emergency PWA</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.18s" fill="freeze"/>
+    <text x="20" y="400" class="key" fill="#38bdf8">STACK:</text>
+    <text x="120" y="400" class="val">Python • PyTorch • C++ • React • Swift</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="1.30s" fill="freeze"/>
+    <text x="20" y="438" class="key" fill="#34d399">PORTFOLIO:</text>
+    <text x="120" y="438" class="val">portfolio-mu-rouge-90.vercel.app</text>
+  </g>
+  <g transform="translate(20, 486)">
+    <rect x="0" y="0" width="20" height="12" rx="3" fill="#ff5f56"/>
+    <rect x="24" y="0" width="20" height="12" rx="3" fill="#ffbd2e"/>
+    <rect x="48" y="0" width="20" height="12" rx="3" fill="#27c93f"/>
+    <rect x="72" y="0" width="20" height="12" rx="3" fill="#38bdf8"/>
+    <rect x="96" y="0" width="20" height="12" rx="3" fill="#a855f7"/>
+    <rect x="120" y="0" width="20" height="12" rx="3" fill="#f43f5e"/>
+    <rect x="144" y="0" width="20" height="12" rx="3" fill="#34d399"/>
+    <rect x="168" y="0" width="20" height="12" rx="3" fill="#22d3ee"/>
+  </g>
+</svg>
