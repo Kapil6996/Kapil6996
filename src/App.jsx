@@ -88,11 +88,11 @@ const projectsData = [
 const achievementsData = [
   {
     id: 1,
-    category: "First Prize",
-    title: "JAI Hackathon Winner Trophy",
-    issuer: "Jamia Millia Islamia",
-    image: "/achievements/jai_hackathon_photo_booth.jpg",
-    size: "tall"
+    category: "Hackathon Finalist",
+    title: "PSB Hackathon 2026 Certificate of Distinction",
+    issuer: "PSB Bank & IT Kharagpur",
+    image: "/achievements/psb_hackathon_2026.jpg",
+    fit: "object-cover object-top"
   },
   {
     id: 2,
@@ -100,7 +100,7 @@ const achievementsData = [
     title: "FTIR Defect Classification Engine",
     issuer: "Maruti Suzuki",
     image: "/maruti_ftir_gui.png",
-    size: "medium"
+    fit: "object-contain p-2 bg-[#09090e]"
   },
   {
     id: 3,
@@ -108,15 +108,15 @@ const achievementsData = [
     title: "SahayCredit Platform",
     issuer: "SahayCredit Demo Suite",
     image: "/sahay_credit.png",
-    size: "small"
+    fit: "object-contain p-2 bg-[#09090e]"
   },
   {
     id: 4,
-    category: "National Hackathon",
-    title: "FORK IT Hackathon Badges",
-    issuer: "FORK IT Hackathon",
-    image: "/achievements/forkit_hackathon_badges.jpg",
-    size: "small"
+    category: "First Prize",
+    title: "JAI Hackathon Winner Trophy",
+    issuer: "Jamia Millia Islamia",
+    image: "/achievements/jai_hackathon_photo_booth.jpg",
+    fit: "object-cover object-top"
   },
   {
     id: 5,
@@ -124,15 +124,15 @@ const achievementsData = [
     title: "JAI Hackathon Stage Certificate",
     issuer: "Dept of Computer Engineering",
     image: "/achievements/jai_hackathon_stage_cert.jpg",
-    size: "small"
+    fit: "object-cover object-top"
   },
   {
     id: 6,
-    category: "Team Honor",
-    title: "JAI Hackathon Trophy Ceremony",
-    issuer: "Jamia Millia Islamia",
-    image: "/achievements/jai_hackathon_trophy.jpg",
-    size: "tall"
+    category: "National Hackathon",
+    title: "FORK IT Hackathon Badges",
+    issuer: "FORK IT Hackathon",
+    image: "/achievements/forkit_hackathon_badges.jpg",
+    fit: "object-cover object-center"
   },
   {
     id: 7,
@@ -140,7 +140,7 @@ const achievementsData = [
     title: "iConnect PDUIIEC 2026 KOSHAK",
     issuer: "PDUIIEC GJUS&T",
     image: "/achievements/iconnect_pduiiec_2026.jpg",
-    size: "medium"
+    fit: "object-cover object-top"
   },
   {
     id: 8,
@@ -148,7 +148,7 @@ const achievementsData = [
     title: "BUILD X 8 Hours Hackathon",
     issuer: "NSUT New Delhi",
     image: "/achievements/buildx_nsut_hackathon.jpg",
-    size: "medium"
+    fit: "object-cover object-top"
   },
   {
     id: 9,
@@ -156,7 +156,7 @@ const achievementsData = [
     title: "Data Impact Summit Keynote",
     issuer: "Auditorium Presentation",
     image: "/achievements/auditorium_hackathon_stage.jpg",
-    size: "tall"
+    fit: "object-cover object-center"
   }
 ];
 
@@ -1273,18 +1273,18 @@ export default function App() {
                   onClick={(e) => openCertModal(e, achievementsData[0].image, `${achievementsData[0].title} — ${achievementsData[0].issuer}`)}
                   className="group relative h-[320px] sm:h-[380px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[0].image} alt={achievementsData[0].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[0].image} alt={achievementsData[0].title} className={`w-full h-full ${achievementsData[0].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[0].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[0].title}</h3>
                   </div>
                 </div>
-                {/* Photo 2 (Landscape) */}
+                {/* Photo 2 (Landscape UI) */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[1].image, `${achievementsData[1].title} — ${achievementsData[1].issuer}`)}
                   className="group relative h-[210px] sm:h-[240px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[1].image} alt={achievementsData[1].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[1].image} alt={achievementsData[1].title} className={`w-full h-full ${achievementsData[1].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[1].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[1].title}</h3>
@@ -1296,21 +1296,21 @@ export default function App() {
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="-0.03">
                 {/* Photo 3 (Very Tall) */}
                 <div 
-                  onClick={(e) => openCertModal(e, achievementsData[5].image, `${achievementsData[5].title} — ${achievementsData[5].issuer}`)}
+                  onClick={(e) => openCertModal(e, achievementsData[3].image, `${achievementsData[3].title} — ${achievementsData[3].issuer}`)}
                   className="group relative h-[390px] sm:h-[450px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[5].image} alt={achievementsData[5].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[3].image} alt={achievementsData[3].title} className={`w-full h-full ${achievementsData[3].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
-                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[5].category}</span>
-                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[5].title}</h3>
+                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[3].category}</span>
+                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[3].title}</h3>
                   </div>
                 </div>
-                {/* Photo 4 (Medium) */}
+                {/* Photo 4 (Medium UI) */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[2].image, `${achievementsData[2].title} — ${achievementsData[2].issuer}`)}
                   className="group relative h-[180px] sm:h-[200px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[2].image} alt={achievementsData[2].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[2].image} alt={achievementsData[2].title} className={`w-full h-full ${achievementsData[2].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[2].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[2].title}</h3>
@@ -1320,60 +1320,60 @@ export default function App() {
 
               {/* COLUMN 3 */}
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="0.05">
-                {/* Photo 5 (Landscape) */}
+                {/* Photo 5 (Landscape Team) */}
                 <div 
-                  onClick={(e) => openCertModal(e, achievementsData[3].image, `${achievementsData[3].title} — ${achievementsData[3].issuer}`)}
+                  onClick={(e) => openCertModal(e, achievementsData[6].image, `${achievementsData[6].title} — ${achievementsData[6].issuer}`)}
                   className="group relative h-[200px] sm:h-[230px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[3].image} alt={achievementsData[3].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[6].image} alt={achievementsData[6].title} className={`w-full h-full ${achievementsData[6].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
-                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[3].category}</span>
-                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[3].title}</h3>
+                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[6].category}</span>
+                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[6].title}</h3>
                   </div>
                 </div>
-                {/* Photo 6 (Medium) */}
+                {/* Photo 6 (Medium Stage) */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[4].image, `${achievementsData[4].title} — ${achievementsData[4].issuer}`)}
                   className="group relative h-[190px] sm:h-[210px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[4].image} alt={achievementsData[4].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[4].image} alt={achievementsData[4].title} className={`w-full h-full ${achievementsData[4].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[4].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[4].title}</h3>
                   </div>
                 </div>
-                {/* Photo 7 (Medium) */}
+                {/* Photo 7 (Medium Badges) */}
                 <div 
-                  onClick={(e) => openCertModal(e, achievementsData[6].image, `${achievementsData[6].title} — ${achievementsData[6].issuer}`)}
+                  onClick={(e) => openCertModal(e, achievementsData[5].image, `${achievementsData[5].title} — ${achievementsData[5].issuer}`)}
                   className="group relative h-[180px] sm:h-[200px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[6].image} alt={achievementsData[6].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[5].image} alt={achievementsData[5].title} className={`w-full h-full ${achievementsData[5].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
-                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[6].category}</span>
-                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[6].title}</h3>
+                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[5].category}</span>
+                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[5].title}</h3>
                   </div>
                 </div>
               </div>
 
               {/* COLUMN 4 */}
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="-0.04">
-                {/* Photo 8 (Tall) */}
+                {/* Photo 8 (Tall Pitching) */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[7].image, `${achievementsData[7].title} — ${achievementsData[7].issuer}`)}
                   className="group relative h-[310px] sm:h-[350px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[7].image} alt={achievementsData[7].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[7].image} alt={achievementsData[7].title} className={`w-full h-full ${achievementsData[7].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[7].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[7].title}</h3>
                   </div>
                 </div>
-                {/* Photo 9 (Tall) */}
+                {/* Photo 9 (Tall Auditorium) */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[8].image, `${achievementsData[8].title} — ${achievementsData[8].issuer}`)}
                   className="group relative h-[290px] sm:h-[320px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[8].image} alt={achievementsData[8].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src={achievementsData[8].image} alt={achievementsData[8].title} className={`w-full h-full ${achievementsData[8].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[8].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[8].title}</h3>
