@@ -97,13 +97,21 @@ const achievementsData = [
   {
     id: 2,
     category: "First Prize",
-    title: "JAI Hackathon Winner Trophy",
+    title: "JAI Hackathon Winner Trophy Frame",
     issuer: "Jamia Millia Islamia",
     image: "/achievements/jai_hackathon_photo_booth.jpg",
     fit: "object-cover object-top"
   },
   {
     id: 3,
+    category: "Team Trophy Ceremony",
+    title: "JAI Hackathon Award Presentation",
+    issuer: "Jamia Millia Islamia",
+    image: "/achievements/jai_hackathon_trophy.jpg",
+    fit: "object-cover object-top"
+  },
+  {
+    id: 4,
     category: "Award Presentation",
     title: "JAI Hackathon Stage Certificate",
     issuer: "Dept of Computer Engineering",
@@ -111,7 +119,7 @@ const achievementsData = [
     fit: "object-cover object-top"
   },
   {
-    id: 4,
+    id: 5,
     category: "National Hackathon",
     title: "FORK IT Hackathon Badges",
     issuer: "FORK IT Hackathon",
@@ -119,7 +127,7 @@ const achievementsData = [
     fit: "object-cover object-center"
   },
   {
-    id: 5,
+    id: 6,
     category: "Tech Summit",
     title: "iConnect PDUIIEC 2026 KOSHAK",
     issuer: "PDUIIEC GJUS&T",
@@ -127,7 +135,7 @@ const achievementsData = [
     fit: "object-cover object-top"
   },
   {
-    id: 6,
+    id: 7,
     category: "Live Pitching",
     title: "BUILD X 8 Hours Hackathon",
     issuer: "NSUT New Delhi",
@@ -135,7 +143,7 @@ const achievementsData = [
     fit: "object-cover object-top"
   },
   {
-    id: 7,
+    id: 8,
     category: "Hackathon Stage",
     title: "Data Impact Summit Keynote",
     issuer: "Auditorium Presentation",
@@ -1255,7 +1263,7 @@ export default function App() {
                 {/* Photo 1: PSB Hackathon 2026 Certificate */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[0].image, `${achievementsData[0].title} — ${achievementsData[0].issuer}`)}
-                  className="group relative h-[320px] sm:h-[370px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[320px] sm:h-[360px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
                   <img src={achievementsData[0].image} alt={achievementsData[0].title} className={`w-full h-full ${achievementsData[0].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
@@ -1266,7 +1274,7 @@ export default function App() {
                 {/* Photo 2: JAI Hackathon Winner Trophy Frame */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[1].image, `${achievementsData[1].title} — ${achievementsData[1].issuer}`)}
-                  className="group relative h-[260px] sm:h-[300px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[260px] sm:h-[290px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
                   <img src={achievementsData[1].image} alt={achievementsData[1].title} className={`w-full h-full ${achievementsData[1].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
@@ -1278,7 +1286,7 @@ export default function App() {
 
               {/* COLUMN 2 */}
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="-0.03">
-                {/* Photo 3: JAI Hackathon Stage Certificate */}
+                {/* Photo 3: JAI Hackathon Trophy Ceremony */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[2].image, `${achievementsData[2].title} — ${achievementsData[2].issuer}`)}
                   className="group relative h-[310px] sm:h-[350px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
@@ -1289,12 +1297,12 @@ export default function App() {
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[2].title}</h3>
                   </div>
                 </div>
-                {/* Photo 4: FORK IT Hackathon Participant Badges */}
+                {/* Photo 4: JAI Hackathon Stage Certificate */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[3].image, `${achievementsData[3].title} — ${achievementsData[3].issuer}`)}
-                  className="group relative h-[270px] sm:h-[320px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[270px] sm:h-[300px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[3].image} alt={achievementsData[3].title} className={`w-full h-full ${achievementsData[3].fit || 'object-cover object-center'} transition-transform duration-700 group-hover:scale-105`} />
+                  <img src={achievementsData[3].image} alt={achievementsData[3].title} className={`w-full h-full ${achievementsData[3].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[3].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[3].title}</h3>
@@ -1304,21 +1312,21 @@ export default function App() {
 
               {/* COLUMN 3 */}
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="0.05">
-                {/* Photo 5: iConnect PDUIIEC 2026 KOSHAK */}
+                {/* Photo 5: FORK IT Hackathon Participant Badges */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[4].image, `${achievementsData[4].title} — ${achievementsData[4].issuer}`)}
-                  className="group relative h-[310px] sm:h-[350px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[280px] sm:h-[310px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[4].image} alt={achievementsData[4].title} className={`w-full h-full ${achievementsData[4].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
+                  <img src={achievementsData[4].image} alt={achievementsData[4].title} className={`w-full h-full ${achievementsData[4].fit || 'object-cover object-center'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[4].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[4].title}</h3>
                   </div>
                 </div>
-                {/* Photo 6: BUILD X 8 Hours Hackathon Live Demo */}
+                {/* Photo 6: iConnect PDUIIEC 2026 KOSHAK */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[5].image, `${achievementsData[5].title} — ${achievementsData[5].issuer}`)}
-                  className="group relative h-[270px] sm:h-[320px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[300px] sm:h-[340px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
                   <img src={achievementsData[5].image} alt={achievementsData[5].title} className={`w-full h-full ${achievementsData[5].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
@@ -1330,15 +1338,26 @@ export default function App() {
 
               {/* COLUMN 4 */}
               <div className="flex flex-col gap-4 sm:gap-5" data-glide-speed="-0.04">
-                {/* Photo 7: Data Impact Summit Keynote Auditorium Stage */}
+                {/* Photo 7: BUILD X 8 Hours Hackathon Live Demo */}
                 <div 
                   onClick={(e) => openCertModal(e, achievementsData[6].image, `${achievementsData[6].title} — ${achievementsData[6].issuer}`)}
-                  className="group relative h-[590px] sm:h-[680px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                  className="group relative h-[290px] sm:h-[320px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
                 >
-                  <img src={achievementsData[6].image} alt={achievementsData[6].title} className={`w-full h-full ${achievementsData[6].fit || 'object-cover object-center'} transition-transform duration-700 group-hover:scale-105`} />
+                  <img src={achievementsData[6].image} alt={achievementsData[6].title} className={`w-full h-full ${achievementsData[6].fit || 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
                     <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[6].category}</span>
                     <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[6].title}</h3>
+                  </div>
+                </div>
+                {/* Photo 8: Data Impact Summit Keynote Auditorium Stage */}
+                <div 
+                  onClick={(e) => openCertModal(e, achievementsData[7].image, `${achievementsData[7].title} — ${achievementsData[7].issuer}`)}
+                  className="group relative h-[290px] sm:h-[330px] bg-[#0a0a0c] border border-white/15 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
+                >
+                  <img src={achievementsData[7].image} alt={achievementsData[7].title} className={`w-full h-full ${achievementsData[7].fit || 'object-cover object-center'} transition-transform duration-700 group-hover:scale-105`} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col justify-end">
+                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase tracking-wider">{achievementsData[7].category}</span>
+                    <h3 className="text-base font-bold text-white mt-0.5">{achievementsData[7].title}</h3>
                   </div>
                 </div>
               </div>
